@@ -1,0 +1,11 @@
+PseudoCode for Bubble Sort: 
+Bubble Sort sorts by comparing elements and sort from left to right where the left side has the lesser value and the right side has the greater value. 
+For the Bubble Sort algorithm a basic series of steps are completed until the elements are sorted: 
+  1. Select first element and second element. 
+  2. Compare values. 
+  3. If left value is greater then swap with right value. 
+  4. If right value is greater then don't do anything. 
+  5. Move on to second and third value. 
+  6. repeat steps 2-4. 
+  7. Use this process until all elements are sorted. 
+Happy Bubble Sorting!
