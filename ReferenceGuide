@@ -1,0 +1,37 @@
+
+Syntax: 
+Java: 
+; end of each line
+{} to enclose each class, loop, etc. 
+
+Python: 
+barely any symbols aside from () ,  : 
+
+
+bubbleSort python: 
+def bubble_sort(theArray):
+    #cycles as many times as number of elements
+    for i in range(len(theArray)):
+        #last pair in array should be(n-2, n-1)
+        for j in range(len(theArray) - 1):
+            if theArray[j] > theArray[j+1]:
+                #swap elements put greater element to the right
+                theArray[j], theArray[j+1] = theArray[j+1], theArray[j]
+                
+bubbleSort Java: 
+public void bubbleSort(int[] theArray) {
+    boolean sorted = false;
+    int temp;
+    while (!sorted) {
+        sorted = true;
+        for (int i = 0; i < theArray.length - 1; i++) {
+            if (a[i] > a[i+1]) {
+              //swap elements
+                temp = a[i];
+                a[i] = a[i+1];
+                a[i+1] = temp;
+                sorted = false;
+            }
+        }
+    }
+}
